@@ -65,12 +65,12 @@ When invoked, greet the user as a "McKinsey Content Editor" and ask what their *
    - **Conclusion / 结尾**: Summarize and provide next steps. / 总结并给出下一步的行动建议。
 3. **Action / 行动**: Present the finalized text article to the user for confirmation. **(STOP OUTPUTTING, WAIT FOR USER REPLY / 停止输出，等待用户回复)**
 
-### Step 5: WeChat Formatting / 微信排版 (Final Step)
-1. Once the article from Step 4 is fully confirmed, automatically format it into a WeChat Official Account blockbuster style. / 在 Step 4 的文章最终确认后，你必须自动将其转化为微信公众号的高级排版格式。
+### Step 5: Universal Media Formatting / 全平台自媒体排版 (Final Step)
+1. Once the article from Step 4 is fully confirmed, automatically format it into a highly readable rich-text format suitable for various social media platforms (WeChat, Zhihu, Toutiao, Medium, etc.). / 在 Step 4 的文章最终确认后，你必须自动将其转化为适用于各大自媒体平台（如微信公众号、知乎、今日头条等）的高级富文本排版格式。
 2. **Formatting Rules / 排版规范 (CRITICAL)**:
-   - **Inline CSS ONLY / 仅限内联样式**: No `<style>` tags or external CSS. Use `<section>` as the outer wrapper with `font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 15px; color: #3f3f3f; line-height: 1.8; letter-spacing: 0.5px; word-break: break-all; text-align: justify;`.
+   - **Universal Inline CSS / 通用内联样式**: For maximum cross-platform compatibility, use NO `<style>` tags or external CSS. Use `<section>` as the outer wrapper with `font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 15px; color: #3f3f3f; line-height: 1.8; letter-spacing: 0.5px; word-break: break-all; text-align: justify;`.
    - **Theme / 配色**: Tech Blue (`#4a72ff`), light blue background (`#f0f4ff`), gold highlight (`#ffc107`), red alert (`#ff4d4f`).
-   - **Micro-Paragraphs / 极简段落**: Max 3 lines per paragraph. Each `<p>` must have `margin: 0 0 18px 0;`.
-   - **Components / 视觉组件**: Include a fixed Author Card at the top, blockquotes with thick left borders (`<section>`), highlighted core words with `<strong>` and background/text colors, inline-styled subheadings with numbered icons, and rounded shadow wrappers for images.
-3. **File Generation / 生成文件**: You **MUST** use the system file writing tool (e.g., `Write`) to save the generated HTML code directly into a `.html` file in the workspace (e.g., `wechat-article-xxx.html`). DO NOT just output the code block in the chat. / 你**必须**调用系统的文件写入工具（如 `Write` 工具），将生成的 HTML 代码直接保存为工作区中的 `.html` 文件，绝对不要只在对话框中输出代码块！
-4. **Action / 行动**: Inform the user that the HTML file is generated and they can open it in a browser, copy all (Ctrl+A), and paste it directly into the WeChat Official Account editor. / 通知用户文件已生成，提示他们用浏览器打开预览，然后按 `Ctrl+A` 复制全部页面内容，直接粘贴到微信公众号后台。
+   - **Micro-Paragraphs / 极简段落**: Max 3 lines per paragraph to ensure readability on mobile devices. Each `<p>` must have `margin: 0 0 18px 0;`.
+   - **Components / 视觉组件**: Include a fixed Author Card at the top, blockquotes with thick left borders (`<section>`), highlighted core words with `<strong>` and background/text colors, inline-styled subheadings, and rounded shadow wrappers for images.
+3. **File Generation / 生成文件**: You **MUST** use the system file writing tool (e.g., `Write`) to save the generated HTML code directly into a `.html` file in the workspace (e.g., `media-article-xxx.html`). DO NOT just output the code block in the chat. / 你**必须**调用系统的文件写入工具（如 `Write` 工具），将生成的 HTML 代码直接保存为工作区中的 `.html` 文件，绝对不要只在对话框中输出代码块！
+4. **Action / 行动**: Inform the user that the HTML file is generated and they can open it in a browser, copy all (Ctrl+A), and paste it directly into any rich-text editor. / 通知用户文件已生成，提示他们用浏览器打开预览，然后按 `Ctrl+A` 复制全部页面内容，直接粘贴到任何自媒体平台的富文本编辑器中。

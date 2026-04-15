@@ -21,7 +21,7 @@ This skill strictly prohibits the LLM from "spitting out all content at once". I
 * **Step 2: Logic Tree & MECE**: Build an Issue Tree based on the core viewpoint. Break it down into 3-5 key drivers using MECE, and align with the user on arguments and cases.
 * **Step 3: Analysis & Synthesis**: Deeply expand each key driver with explanations, case evidence, and actionable advice. Present a detailed outline for user confirmation.
 * **Step 4: Final Output**: Synthesize all confirmed content into a structured, insightful long-form article (including a catchy title, SCQA intro, subheaded body, and summary/next steps).
-* **Step 5: WeChat Formatting**: After the final text is confirmed, automatically format the article using strictly inline CSS suitable for WeChat Official Accounts. Apply the Tech Blue theme, micro-paragraphs, and generate a `.html` file saved directly to the workspace for the user to copy.
+* **Step 5: Universal Media Formatting**: After the final text is confirmed, automatically format the article using strictly inline CSS for maximum cross-platform compatibility (WeChat, Zhihu, Medium, etc.). Apply the Tech Blue theme, mobile-friendly micro-paragraphs, and generate a `.html` file saved directly to the workspace for the user to copy and paste into any rich-text editor.
 
 ### 🚀 How to Use
 1. Install or copy the `SKILL.md` from this project into your OpenClaw `skills/` directory (e.g., `~/.openclaw/skills/mckinsey-editor/SKILL.md`).
@@ -49,7 +49,7 @@ This skill strictly prohibits the LLM from "spitting out all content at once". I
 * **Step 2: 结构化拆解 (Logic Tree & MECE)**: 基于核心观点构建关键议题树 (Issue Tree)，使用 MECE 原则拆解出 3-5 个一级分论点，并与用户对齐论证方向和案例。
 * **Step 3: 深化与验证 (Analysis & Synthesis)**: 对每个分论点进行深度扩展，补充深度解释、案例证据和对策建议，形成完整详实的大纲供用户二次确认。
 * **Step 4: 金字塔输出 (Final Output)**: 将所有确认无误的内容整合成篇，输出结构清晰（包含吸引人的标题、SCQA 序言、小标题正文及总结建议）的深度长文，并等待最终确认。
-* **Step 5: 微信排版 (WeChat Formatting)**: 在文本内容最终确认后，自动采用微信公众号高级排版规范（科技蓝主题、严格内联样式、极简段落）将文章转化为排版精美的 HTML 页面，并直接保存至工作区，方便用户一键复制粘贴至公众号后台。
+* **Step 5: 全平台自媒体排版 (Universal Media Formatting)**: 在文本内容最终确认后，自动采用跨平台兼容的高级排版规范（科技蓝主题、严格内联样式、移动端极简段落）将文章转化为排版精美的 HTML 页面，并直接保存至工作区，方便用户一键复制粘贴至任何自媒体平台（微信公众号、知乎、头条等）的富文本编辑器中。
 
 ### 🚀 如何使用
 1. 将本项目的 `SKILL.md` 安装或复制到您的 OpenClaw 的 `skills/` 目录中（例如 `~/.openclaw/skills/mckinsey-editor/SKILL.md`）。
