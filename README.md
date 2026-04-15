@@ -1,4 +1,4 @@
-# McKinsey Editor Skill for OpenClaw
+# Omni Media Editor Skill for OpenClaw
 
 [English](#english) | [简体中文](#简体中文)
 
@@ -7,7 +7,7 @@
 <a name="english"></a>
 ## 🇬🇧 English
 
-**McKinsey Editor** is a structured writing flow skill designed for crafting in-depth, long-form articles. Based on the *Pyramid Principle*, *MECE Principle*, and *SCQA Framework*, this skill transforms the LLM into a senior McKinsey content editor. Through a progressive, multi-round interactive process, it helps users turn vague inspirations and scattered topics into highly logical, insightful, and high-quality long-form articles.
+**Omni Media Editor** is a structured writing flow skill designed for crafting in-depth, long-form articles. Based on the *Pyramid Principle*, *MECE Principle*, and *SCQA Framework*, this skill transforms the LLM into a senior content editor. Through a progressive, multi-round interactive process, it helps users turn vague inspirations and scattered topics into highly logical, insightful, and high-quality long-form articles, and automatically formats them for multi-platform publishing.
 
 ### 🌟 Core Philosophy
 1. **Hypothesis-Driven**: Avoid aimless information listing. Propose a core hypothesis first, then seek compelling evidence to support it.
@@ -24,7 +24,7 @@ This skill strictly prohibits the LLM from "spitting out all content at once". I
 * **Step 5: Universal Media Formatting**: After the final text is confirmed, automatically format the article using strictly inline CSS for maximum cross-platform compatibility (WeChat, Zhihu, Medium, etc.). Apply the Tech Blue theme, mobile-friendly micro-paragraphs, and generate a `.html` file saved directly to the workspace for the user to copy and paste into any rich-text editor.
 
 ### 🚀 How to Use
-1. Install or copy the `SKILL.md` from this project into your OpenClaw `skills/` directory (e.g., `~/.openclaw/skills/mckinsey-editor/SKILL.md`).
+1. Install or copy the `SKILL.md` from this project into your OpenClaw `skills/` directory (e.g., `~/.openclaw/skills/omni-media-editor/SKILL.md`).
 2. Call the skill directly in the OpenClaw chat interface, or trigger it with prompts like:
    * *"Help me draft an in-depth article on the topic of..."*
    * *"I have a topic about X, help me write an article."*
@@ -35,7 +35,7 @@ This skill strictly prohibits the LLM from "spitting out all content at once". I
 <a name="简体中文"></a>
 ## 🇨🇳 简体中文
 
-**McKinsey Editor (麦肯锡内容主编)** 是一款专为深度长文写作打造的结构化写作流技能 (Skill)。本技能基于《金字塔原理》、MECE 原则和 SCQA 框架，引导大模型转变为一位资深的麦肯锡内容主编，通过多轮渐进式的交互，帮助用户把模糊的灵感和零散的选题转化为逻辑严密、洞察深刻的高质量长文。
+**Omni Media Editor (全平台自媒体主编)** 是一款专为深度长文写作与全平台发布打造的结构化写作流技能 (Skill)。本技能基于《金字塔原理》、MECE 原则和 SCQA 框架，引导大模型转变为一位资深的内容主编，通过多轮渐进式的交互，帮助用户把模糊的灵感和零散的选题转化为逻辑严密、洞察深刻的高质量长文，并自动输出适合跨平台发布的富文本排版。
 
 ### 🌟 核心理念
 1. **以假设为导向**: 摒弃漫无目的地罗列信息，主张先提出核心观点，再寻找有力证据支撑。
@@ -52,7 +52,7 @@ This skill strictly prohibits the LLM from "spitting out all content at once". I
 * **Step 5: 全平台自媒体排版 (Universal Media Formatting)**: 在文本内容最终确认后，自动采用跨平台兼容的高级排版规范（科技蓝主题、严格内联样式、移动端极简段落）将文章转化为排版精美的 HTML 页面，并直接保存至工作区，方便用户一键复制粘贴至任何自媒体平台（微信公众号、知乎、头条等）的富文本编辑器中。
 
 ### 🚀 如何使用
-1. 将本项目的 `SKILL.md` 安装或复制到您的 OpenClaw 的 `skills/` 目录中（例如 `~/.openclaw/skills/mckinsey-editor/SKILL.md`）。
+1. 将本项目的 `SKILL.md` 安装或复制到您的 OpenClaw 的 `skills/` 目录中（例如 `~/.openclaw/skills/omni-media-editor/SKILL.md`）。
 2. 在 OpenClaw 聊天界面中直接呼叫该技能，或者输入类似指令触发：
    * *"帮我构思一篇深度文章，选题是..."*
    * *"我有一个关于...的选题，帮我写一篇文章"*
