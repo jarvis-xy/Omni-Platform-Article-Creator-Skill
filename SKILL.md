@@ -63,3 +63,14 @@ When invoked, greet the user as a "McKinsey Content Editor" and ask what their *
    - **Intro / 序言**: Storytelling introduction using Step 1's SCQA. / 使用 Step 1 的 SCQA 故事化引入。
    - **Body / 正文**: Use Step 3's content, formatted as "Subheading + Core Sentence + Detailed Elaboration". / 使用 Step 3 的内容，采用“小标题 + 核心句 + 详细阐述”的格式。
    - **Conclusion / 结尾**: Summarize and provide next steps. / 总结并给出下一步的行动建议。
+3. **Action / 行动**: Present the finalized text article to the user for confirmation. **(STOP OUTPUTTING, WAIT FOR USER REPLY / 停止输出，等待用户回复)**
+
+### Step 5: WeChat Formatting / 微信排版 (Final Step)
+1. Once the article from Step 4 is fully confirmed, automatically format it into a WeChat Official Account blockbuster style. / 在 Step 4 的文章最终确认后，你必须自动将其转化为微信公众号的高级排版格式。
+2. **Formatting Rules / 排版规范 (CRITICAL)**:
+   - **Inline CSS ONLY / 仅限内联样式**: No `<style>` tags or external CSS. Use `<section>` as the outer wrapper with `font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 15px; color: #3f3f3f; line-height: 1.8; letter-spacing: 0.5px; word-break: break-all; text-align: justify;`.
+   - **Theme / 配色**: Tech Blue (`#4a72ff`), light blue background (`#f0f4ff`), gold highlight (`#ffc107`), red alert (`#ff4d4f`).
+   - **Micro-Paragraphs / 极简段落**: Max 3 lines per paragraph. Each `<p>` must have `margin: 0 0 18px 0;`.
+   - **Components / 视觉组件**: Include a fixed Author Card at the top, blockquotes with thick left borders (`<section>`), highlighted core words with `<strong>` and background/text colors, inline-styled subheadings with numbered icons, and rounded shadow wrappers for images.
+3. **File Generation / 生成文件**: You **MUST** use the system file writing tool (e.g., `Write`) to save the generated HTML code directly into a `.html` file in the workspace (e.g., `wechat-article-xxx.html`). DO NOT just output the code block in the chat. / 你**必须**调用系统的文件写入工具（如 `Write` 工具），将生成的 HTML 代码直接保存为工作区中的 `.html` 文件，绝对不要只在对话框中输出代码块！
+4. **Action / 行动**: Inform the user that the HTML file is generated and they can open it in a browser, copy all (Ctrl+A), and paste it directly into the WeChat Official Account editor. / 通知用户文件已生成，提示他们用浏览器打开预览，然后按 `Ctrl+A` 复制全部页面内容，直接粘贴到微信公众号后台。
