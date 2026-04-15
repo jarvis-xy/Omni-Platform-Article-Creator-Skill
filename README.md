@@ -7,7 +7,7 @@
 <a name="english"></a>
 ## 🇬🇧 English
 
-**Omni Media Editor** is a structured writing flow skill designed for crafting in-depth, long-form articles. Based on the *Pyramid Principle*, *MECE Principle*, and *SCQA Framework*, this skill transforms the LLM into a senior content editor. Through a progressive, multi-round interactive process, it helps users turn vague inspirations and scattered topics into highly logical, insightful, and high-quality long-form articles, and automatically formats them for multi-platform publishing.
+**Omni Media Editor** is a structured writing flow skill designed for crafting in-depth, long-form articles. Based on McKinsey's methodologies (including the *Pyramid Principle*, *MECE Principle*, and *SCQA Framework*), this skill transforms the LLM into a senior content editor. Through a progressive, multi-round interactive process, it helps users turn vague inspirations and scattered topics into highly logical, insightful, and high-quality long-form articles, and automatically formats them for multi-platform publishing.
 
 ### 🌟 Core Philosophy
 1. **Hypothesis-Driven**: Avoid aimless information listing. Propose a core hypothesis first, then seek compelling evidence to support it.
@@ -35,7 +35,7 @@ This skill strictly prohibits the LLM from "spitting out all content at once". I
 <a name="简体中文"></a>
 ## 🇨🇳 简体中文
 
-**Omni Media Editor (全平台自媒体主编)** 是一款专为深度长文写作与全平台发布打造的结构化写作流技能 (Skill)。本技能基于《金字塔原理》、MECE 原则和 SCQA 框架，引导大模型转变为一位资深的内容主编，通过多轮渐进式的交互，帮助用户把模糊的灵感和零散的选题转化为逻辑严密、洞察深刻的高质量长文，并自动输出适合跨平台发布的富文本排版。
+**Omni Media Editor (全平台自媒体主编)** 是一款专为深度长文写作与全平台发布打造的结构化写作流技能 (Skill)。本技能基于**麦肯锡方法论**（涵盖《金字塔原理》、MECE 原则和 SCQA 框架），引导大模型转变为一位资深的内容主编，通过多轮渐进式的交互，帮助用户把模糊的灵感和零散的选题转化为逻辑严密、洞察深刻的高质量长文，并自动输出适合跨平台发布的富文本排版。
 
 ### 🌟 核心理念
 1. **以假设为导向**: 摒弃漫无目的地罗列信息，主张先提出核心观点，再寻找有力证据支撑。

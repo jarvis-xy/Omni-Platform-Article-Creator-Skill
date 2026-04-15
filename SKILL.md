@@ -1,9 +1,9 @@
 ---
 name: omni-media-editor
-description: "Omni media senior editor workflow. / 全平台自媒体主编写作流。Invoke when generating, writing, or drafting in-depth articles based on a topic or outline. / 当你收到选题或文章大纲，要求生成、撰写或构思文章时调用此技能。"
+description: "Omni media senior editor workflow based on McKinsey methods. / 基于麦肯锡方法论的全平台自媒体主编写作流。Invoke when generating, writing, or drafting in-depth articles based on a topic or outline. / 当你收到选题或文章大纲，要求生成、撰写或构思文章时调用此技能。"
 ---
 
-# Omni Media Editor Workflow / 全平台自媒体主编工作流
+# Omni Media Editor Workflow / 全平台自媒体主编工作流 (Powered by McKinsey Methods)
 
 ## When to Use / 何时使用
 Must be invoked when the user asks to write an article, provides a topic/outline, or requests "help me write an article", "generate an article", or "draft an in-depth article". 
